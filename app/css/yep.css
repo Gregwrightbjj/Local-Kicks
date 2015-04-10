@@ -1,0 +1,145 @@
+
+#add-template{
+  margin-left: 31%;
+  margin-top: 12%;
+  width: 37%;
+}
+
+#add-template h1 {
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 7px;
+  
+}
+.add-view #check img {
+  width: 20px;
+  background: #E6E3E3;
+  border-radius: 50px;
+  padding: 10px;
+  opacity: .9;
+}
+#box-one{
+border:solid black 1px;
+background: #E87352;
+margin-bottom: 16px;
+border-radius: 14px;
+padding: 12px;
+}
+#box-two{
+border:solid black 1px;
+background: #3bbec0;
+margin-bottom: 16px;
+border-radius: 14px;
+padding: 12px;
+}
+#box-two p{
+
+}
+#box-three{
+border:solid black 1px; 
+background: #EBC85E;
+margin-bottom: 16px;
+border-radius: 14px;
+padding: 12px;
+}
+.button-file-input{
+ font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  padding: 7px 15px;
+  background: #6B0000;
+  border-radius: 5px;
+  margin-left: 25px;
+  color: #E0E0E0;
+  border: 1px solid #300;
+  box-shadow: 0 0 3px #350000;
+}
+#check{
+    display:inline-block;
+    position: relative;
+  float: right;
+  top: 20px;
+  right: 60%;
+  z-index: 1;
+  background: #E6E3E3;
+  border-radius: 50px;
+  padding: 10px;
+  opacity: 0.9;
+}
+#check img{
+    height: 20px;
+}
+fileinput .thumbnail {
+  background-image:url(http://static.squarespace.com/static/52a6446de4b0b5ab909e7414/54742a86e4b0171d49d32f43/54742d71e4b0bb5a49f01a7f/1416899954119/placeholder.png);
+  background-size: 100% auto;
+    margin-top: 8px;
+}
+#image-placeholder{
+  width: 140px;
+  padding: 10px;
+  border: 1px solid #6B0000;
+  border-radius: 5px;
+  float: right;
+}
+.saveWrap{
+    float: right;
+}
+@media (max-width: 743px){ 
+#add-template{
+  margin-left: 17%;
+  margin-top: 12%;
+  box-sizing: border-box;
+  width: 71%;
+}
+#box-one{
+  border-radius: 11px;
+  padding: 10px;
+  margin-bottom: 16px;
+  height: 280px;
+}
+#box-two{
+    border-radius: 11px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+#box-two span{
+    margin-left: 10px;
+}
+#box-two p{
+    margin-left: 26px;
+  margin-top: 20px;
+}
+#box-three{
+      border-radius: 11px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+#check {
+  display: none;
+  position: relative;
+  float: right;
+  top: 17px;
+  right: 53%;
+  z-index: 1;
+  background: #E6E3E3;
+  border-radius: 50px;
+  padding: 10px;
+  opacity: 0.9;
+ 
+}
+.fileinput .thumbnail {
+  background-image:url(http://static.squarespace.com/static/52a6446de4b0b5ab909e7414/54742a86e4b0171d49d32f43/54742d71e4b0bb5a49f01a7f/1416899954119/placeholder.png);
+  background-size: 100% auto;
+    margin-top: 8px;
+}
+.fileinput {
+  margin-left: 24px;
+}
+#image-placeholder{
+ margin-right: 79px;
+  margin-top: -53px;
+}
+}
+
+

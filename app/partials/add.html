@@ -1,0 +1,70 @@
+<!-- template for Add Place View -->
+<div type="text/template" class="container" id="add-template" >
+    <h1>Share your local find</h1>
+    <div id="box-one">
+        
+        <h2>1. Upload a photo</h2>
+        <div id="inside">
+            <div class="file-input-wrapper">
+              <!-- <div class="button-file-input">Upload file</div> -->
+              <!-- <input type="file" name="file" id="photo-upload" onchange="PreviewImage();"/> --> 
+            </div> 
+            <div id="upload-image-div">
+                <div id="check">
+                    <img src="images/check.png">
+                </div>
+               
+               <!-- Input wrap -->
+               <div class="fileinput fileinput-new" data-provides="fileinput">
+                    <div>
+                        <span class="btn btn-default btn-file">
+                            <span class="fileinput-new">Upload file</span>
+                            <span class="fileinput-exists">Change</span>
+                            <input type="file" name="...">
+                        </span>
+                        <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                    </div>                   
+                     <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="box-two">
+        
+        <h2>2. Mark the location</h2>
+        <div id="inside">
+            <input type="checkbox" id="location" onclick="getlocation()">
+            <span>I am here now, find me!</span> 
+            <div id="input-address">
+                <p>Or, add the address</p>
+                <input type="text" id="address-location" placeholder="Street Address, City, Zip code">
+            </div>
+        </div>
+    </div>
+
+    <div id="box-three">
+        
+        <h2>3. What did you find?</h2>
+        <div id="inside">
+            <div id="box-three-left">
+                
+                    <div>Name of place</div>
+                    <input id="name" placeholder="Place">
+
+                </ul>
+            </div>
+            <div id="box-three-right">
+                <p>Description</p>
+                <textarea id="description" placeholder="Write a brief description on the place you found."> </textarea>
+            </div>
+        </div>
+    </div>
+    <div class="saveWrap">
+        <div id="save" class="arrow_box ">SAVE</div>
+        <i class="fa fa-arrow-circle-o-right fa-2x"></i>
+    </div>
+</div>
+
+
+
